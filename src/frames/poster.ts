@@ -4,24 +4,11 @@ export default {
     name: 'poster',
     render: () => {
         return {
-            image: 'images/poster-animated.gif',
+            image: 'images/pepeJohnSnow.png',
             buttons: [
                 {
                     action: 'post',
-                    label: '🔳 State'
-                },
-                {
-                    action: 'post',
-                    label: '🔳 Tx'
-                },
-                {
-                    action: 'post',
-                    label: '🔳 Mint'
-                },
-                {
-                    action: 'link',
-                    target: 'https://github.com/depatchedmode/simplest-frame',
-                    label: 'Github'
+                    label: 'Why does he look so sad?'
                 }
             ]
         }
@@ -31,14 +18,6 @@ export default {
             case 1: 
                 return {
                     frame: 'count',
-                };
-            case 2:
-                return {
-                    frame: 'transaction'
-                };
-            case 3:
-                return {
-                    frame: 'mint',
                 };
         }
     },
