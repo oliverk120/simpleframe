@@ -4,7 +4,7 @@ export default {
     name: 'famine',
     render: () => {
         return {
-            image: 'images/pepeJohnSnow.png',
+            image: 'images/famineresize.jpg',
             buttons: [
                 {
                     action: 'post',

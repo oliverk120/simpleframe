@@ -69,9 +69,9 @@ const respondWithFrame = async (
   const index = await landingPage(frame);
   const options: GetFrameHtmlOptions = {
     og: {
-        title: '🔳 Simplest Frame', 
+        title: 'A song of ice and ham', 
     },
-    title: '🔳 Simplest Frame', 
+    title: 'A song of ice and ham', 
     htmlBody: index.body, 
     htmlHead: index.head
   };

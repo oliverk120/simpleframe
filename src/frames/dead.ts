@@ -4,7 +4,7 @@ export default {
     name: 'dead',
     render: () => {
         return {
-            image: 'images/dead.png',
+            image: 'images/deadresize.jpg',
             buttons: [
                 {
                     action: 'post',

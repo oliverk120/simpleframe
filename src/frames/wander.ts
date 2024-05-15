@@ -4,7 +4,7 @@ export default {
     name: 'wander',
     render: () => {
         return {
-            image: 'images/goblin.png',
+            image: 'images/goblinresize.jpg',
             buttons: [
                 {
                     action: 'post',

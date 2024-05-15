@@ -4,7 +4,7 @@ export default {
     name: 'cave',
     render: () => {
         return {
-            image: 'images/cave.png',
+            image: 'images/caveresize.jpg',
             buttons: [
                 {
                     action: 'post',

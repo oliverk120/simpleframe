@@ -6,7 +6,7 @@ export default {
     name: 'mint',
     render: async () => {
         return {
-            image: 'images/feast.png',
+            image: 'images/feastresize.jpg',
             buttons: [
                 {
                     action: 'post',

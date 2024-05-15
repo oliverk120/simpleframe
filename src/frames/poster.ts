@@ -4,11 +4,11 @@ export default {
     name: 'poster',
     render: () => {
         return {
-            image: 'images/pepeJohnSnow.png',
+            image: 'images/johnsnowresize.jpg',
             buttons: [
                 {
                     action: 'post',
-                    label: 'Why does he look so sad?'
+                    label: 'Why is he so sad?'
                 }
             ]
         }
