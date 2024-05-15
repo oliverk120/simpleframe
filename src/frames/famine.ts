@@ -8,7 +8,7 @@ export default {
             buttons: [
                 {
                     action: 'post',
-                    label: 'Take a nap to wake up refreshed'
+                    label: 'Take a nap'
                 },
                 {
                     action: 'post',

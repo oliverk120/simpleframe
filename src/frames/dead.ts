@@ -15,7 +15,7 @@ export default {
     },
     handleInteraction: (frameData: FrameActionDataParsed) => {
         switch (frameData.buttonIndex) {
-            case 1: 
+            case 0: 
             return {
                 frame: 'poster',
             };
