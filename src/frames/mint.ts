@@ -6,7 +6,7 @@ export default {
     name: 'mint',
     render: async () => {
         return {
-            image: 'images/poster-animated.gif',
+            image: 'images/feast.png',
             buttons: [
                 {
                     action: 'post',
@@ -16,7 +16,7 @@ export default {
                     action: 'mint',
                     label: 'Mint',
                     target: getTokenUrl({
-                        address: '0xc6d4848c9f01d649dfba170c65a964940a93dca5',
+                        address: '0x22c468c42e05d1abbea90229c47bf7bded4b5e39',
                         chain: zora,
                         tokenId: '1',
                     })

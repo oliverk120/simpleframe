@@ -17,7 +17,7 @@ export default {
         switch (frameData.buttonIndex) {
             case 1: 
                 return {
-                    frame: 'count',
+                    frame: 'famine',
                 };
         }
     },
