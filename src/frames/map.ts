@@ -4,7 +4,7 @@ export default {
     name: 'map',
     render: () => {
         return {
-            image: 'images/mapresize.jpg',
+            image: 'images/map2resize.jpg',
             buttons: [
                 {
                     action: 'post',
