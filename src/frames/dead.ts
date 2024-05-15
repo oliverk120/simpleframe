@@ -2,7 +2,7 @@ import { FrameActionDataParsed } from "frames.js";
 
 export default {
     name: 'dead',
-    render: () => {
+    render: async () => {
         return {
             image: 'images/deadresize.jpg',
             buttons: [
@@ -13,12 +13,12 @@ export default {
             ]
         }
     },
-    handleInteraction: (frameData: FrameActionDataParsed) => {
+    handleInteraction: async (frameData: FrameActionDataParsed) => {
         switch (frameData.buttonIndex) {
-            case 0: 
-            return {
-                frame: 'poster',
-            };
+            case 1: 
+                return {
+                    frame: 'poster'
+                };
         }
     },
 };
